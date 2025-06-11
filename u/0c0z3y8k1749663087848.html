@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <title>Gửi em yêu ❤</title>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/webp" href="https://raw.githubusercontent.com/thongdiepyeuthuong/love/main/uploads/1749523465879_love.webp">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; overflow: hidden; background: black; }
+    canvas { display: block; }
+    #loadingText {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 24px;
+      font-family: 'Roboto', sans-serif;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+
+<div id="loadingText">Đang tải yêu thương...</div>
+
+<script src="https://cdn.jsdelivr.net/gh/dulieublog2/js@main/chukhonggian.js"></script>
+
+<script>
+const jansharenoidung = ["A thương emmm","Em bé của a đáng yêu lắm","Thương emmm bé Ngọc","Bé Ngọc xinh gái","Bé Ngọc ngoann ","Thơmmm emmm","Nhớ bé Ngọc nhất nhà","Bé Ngọc đừng buồn nhá","A sẽ ở cạnh emm bé ","A k muốn mất emm","Ngoan, để a chăm sóc em","Đừng đi nhá, đừng đi khỏi a","I love you bé Ngọc ","Bé Ngọc đáng yêu nhất nhà"];
+const imageUrls = [ 'https://raw.githubusercontent.com/thongdiepyeuthuong/love/main/uploads/1749662434782_Messenger_creation_861A7308-FA8F-4C4B-B019-894B721E2518.jpeg' ];
+</script>
+
+<audio id="phatnhac" autoplay muted>
+  <source src="https://nguoiyeucuatoi.github.io/love/onlylove.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  document.addEventListener('click', function () {
+    const audio = document.getElementById('phatnhac');
+    audio.muted = false;
+    audio.play();
+  }, { once: true }); 
+</script>
+
+<script src="https://cdn.jsdelivr.net/gh/nguoiyeucuatoi/love@main/chuchayjanshare2.js"></script>
+</body>
+</html>
