@@ -112,7 +112,7 @@
 
     async function tryGetIP(index = 0) {
       if (index >= ipAPIs.length) {
-        document.getElementById("ipInfo").innerHTML = "<span style='color:red'>Không thể lấy thông tin IP.</span>";
+        document.getElementById("ipInfo").innerHTML = "<span style='color:red'>Không sao chép code.</span>";
         return;
       }
       try {
@@ -162,7 +162,7 @@
       }).then(() => {
         document.getElementById("status").innerText = "Đã gửi dữ liệu IP và thiết bị của người sao chép code về hệ thống.";
       }).catch(() => {
-        document.getElementById("status").innerText = "Không sao chép code.";
+        document.getElementById("status").innerText = "Không thể gửi dữ liệu.";
       });
     }
 
